@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/main.css">
+    <link rel="stylesheet" href="./scss/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="slider">
+
+        <div class="slider-items">
+            <img src="./images/01.jpg" alt="" class="slider-item">
+            <img src="./images/02.jpg" alt="" class="slider-item">
+            <img src="./images/03.jpg" alt="" class="slider-item">
+        </div>
+        <div class="slider-control">
+            <span class="prev" onclick="changeSlide(-1)"><i class="fa-solid fa-arrow-left"></i></span>
+            <span class="next" onclick="changeSlide(1)"><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+        <div class="slider-indicators">
+            <span onclick="moveTo(1)"></span>
+            <span onclick="moveTo(2)"></span>
+            <span onclick="moveTo(3)"></span>
+        </div>
+        <div class="slider-content">
+            <h3>Ocean View</h3>
+            <h3>Green Valley</h3>
+            <h3>Lake Reflection</h3>
+        </div>
+    </div>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
